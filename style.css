@@ -1,0 +1,58 @@
+/* GLOBAL STYLES */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+    color: #2b2b2b;
+    scroll-behavior: smooth;
+}
+
+/* EFEK GRADASI PADA TEKS */
+.text-gradient {
+    background: linear-gradient(45deg, #0d6efd, #00f2fe);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-danger-gradient {
+    background: linear-gradient(45deg, #dc3545, #ff758c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* HERO SECTION CUSTOMIZATION */
+.hero-section {
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+    min-height: 85vh;
+    padding: 100px 0;
+}
+
+.text-muted-light {
+    color: #cbd5e1;
+}
+
+/* AVATAR INISIAL PEMBICARA */
+.avatar-placeholder {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+}
+
+/* STYLE KOTAK HITUNG MUNDUR */
+.bg-secondary-dark {
+    background-color: #334155 !important;
+    border: 1px solid #475569;
+}
+
+/* ANIMASI HOVER PADA CARD KEYNOTE SPEAKERS */
+.card-hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card-hover:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+}
+
+.dynamic-card {
+    border: 1px solid #334155;
+    background: linear-gradient(145deg, #1e293b, #0f172a) !important;
+}
