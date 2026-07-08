@@ -1,4 +1,4 @@
-/* GLOBAL STYLES */
+
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #ffffff;
@@ -30,20 +30,20 @@ body {
     color: #cbd5e1;
 }
 
-/* AVATAR INISIAL PEMBICARA */
+
 .avatar-placeholder {
     width: 80px;
     height: 80px;
     line-height: 80px;
 }
 
-/* STYLE KOTAK HITUNG MUNDUR */
+
 .bg-secondary-dark {
     background-color: #334155 !important;
     border: 1px solid #475569;
 }
 
-/* ANIMASI HOVER PADA CARD KEYNOTE SPEAKERS */
+
 .card-hover {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -55,4 +55,46 @@ body {
 .dynamic-card {
     border: 1px solid #334155;
     background: linear-gradient(145deg, #1e293b, #0f172a) !important;
+}
+
+.leading-relaxed {
+    line-height: 1.75;
+}
+
+
+.card {
+    transition: all 0.3s ease;
+}
+
+
+.card:hover .avatar-placeholder {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+
+.list-group-item {
+    font-size: 0.95rem;
+    color: #4b5563;
+}
+
+
+.speaker-photo-panel {
+    width: 100%;
+    height: 100%;
+    min-height: 320px;
+    overflow: hidden;
+}
+
+.speaker-photo-panel img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 991.98px) {
+    .order-lg-last {
+        order: -1 !important; 
+    }
 }
